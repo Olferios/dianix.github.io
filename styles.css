@@ -1,0 +1,531 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Fondo rosa claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header img{
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+}
+.contenido{
+    margin-top: ;
+}
+section img{
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+header {
+    background-color: #e91e63; /* Color rosa */
+    padding: 20px;
+    color: white;
+}
+
+h1.titulo {
+    margin-bottom: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+
+section {
+    margin: 20px;
+}
+
+picture {
+    display: block;
+    margin: 0 auto;
+}
+.Parrafo {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+header h1{
+    font-family: "Quicksand", sans-serif;
+}
+
+.boton {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+
+.boton:hover {
+    background-color: #c0392b;
+    transform: translateY(-5px); 
+}
+section {
+    display: flex;
+    height:max-content;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Ajusta la altura según tus necesidades */
+}
+
+.gif2 {
+    width: 450px; /* La imagen no puede ser más ancha que su contenedor */
+    height: 400px; /* Mantiene la proporción original de la imagen */
+    overflow: hidden;
+    
+    
+}
+.gif2 iframe{
+    width: 100%;
+    height:100%;
+    border: none;
+    object-fit: cover;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+    
+    height: max-content;
+
+}
+.wrapper{
+    margin-top: 150px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height:auto;
+
+}
+.wrapper button a{
+    font-family: "Quicksand", sans-serif;
+    textd
+    text-decoration:none ;
+
+}
+
+.wrapper button{
+   
+    width:200px;
+    height:70px;
+    background: linear-gradient(to left top, #c32c71 50%, #b33771 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+    
+}
+
+
+button a{
+    color:white;
+}
+button span{
+    position: absolute;
+    display: block;
+}
+button span:nth-child(1){
+    height: 3px;
+    width:200px;
+    top:0px;
+    left:-200px;
+    background: linear-gradient(to right, rgba(0,0,0,0), #f6e58d);
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    animation: span1 2s linear infinite;
+    animation-delay: 1s;
+}
+.botonno {
+    margin-top: 120px;
+}
+
+.botonno button {
+    width: 200px;
+    height: 70px;
+    background: #e74c3c;
+    border: none;
+    color: white;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+
+.botonno button a {
+    color: white;
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif
+}
+
+.botonno button:hover {
+    background-color: #c0392b;
+    transform: rotate(-3deg) scale(0.5);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+}
+@keyframes span1{
+    0%{
+        left:-200px
+    }
+    100%{
+        left:200px;
+    }
+}
+button span:nth-child(2){
+    height: 70px;
+    width: 3px;
+    top:-70px;
+    right:0px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), #f6e58d);
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    animation: span2 2s linear infinite;
+    animation-delay: 2s;
+}
+@keyframes span2{
+    0%{
+        top:-70px;
+    }
+    100%{
+        top:70px;
+    }
+}
+button span:nth-child(3){
+    height:3px;
+    width:200px;
+    right:-200px;
+    bottom: 0px;
+    background: linear-gradient(to left, rgba(0,0,0,0), #f6e58d);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    animation: span3 2s linear infinite;
+    animation-delay: 3s;
+}
+@keyframes span3{
+    0%{
+        right:-200px;
+    }
+    100%{
+        right: 200px;
+    }
+}
+
+button span:nth-child(4){
+    height:70px;
+    width:3px;
+    bottom:-70px;
+    left:0px;
+    background: linear-gradient(to top, rgba(0,0,0,0), #f6e58d);
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    animation: span4 2s linear infinite;
+    animation-delay: 4s;
+}
+@keyframes span4{
+    0%{
+        bottom: -70px;
+    }
+    100%{
+        bottom:70px;
+    }
+}
+
+button:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+button:hover span{
+    animation-play-state: paused;
+}
+
+
+/* index 3*/
+.wrappertres{
+    margin-top: 150px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height:auto;
+
+}
+
+.wrappertres button{
+   
+    width:250px;
+    height:120px;
+    background: linear-gradient(to left top, #c32c71 50%, #b33771 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 43px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+    text-decoration: none;
+    
+}
+.wrappertres button a{
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif
+}
+.wrappertres button:hover{
+    transform: scale(2);
+}
+.botonnotres {
+    margin-top: 120px;
+}
+
+.botonnotres button {
+    width: 150px;
+    height: 50px;
+    background: #e74c3c;
+    border: none;
+    color: white;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+
+.botonnotres button a {
+    color: white;
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif
+}
+
+.botonnotres button:hover {
+    background-color: #c0392b;
+    transform: rotate(-8deg) scale(0.3);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* index 4*/
+.wrappercuatro{
+    margin-top: 150px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height:auto;
+
+}
+
+.wrappercuatro button{
+   
+    width:300px;
+    height:170px;
+    background: linear-gradient(to left top, #c32c71 50%, #b33771 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 63px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+    text-decoration: none;
+    
+}
+.wrappercuatro button a{
+    text-decoration: none;
+}
+.wrappercuatro button:hover{
+    transform: scale(4);
+}
+.botonnocuatro {
+    margin-top: 120px;
+}
+
+.botonnocuatro button {
+    width: 100px;
+    height: 40px;
+    background: #e74c3c;
+    border: none;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+
+.botonnocuatro button a {
+    color: white;
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+.botonnocuatro button:hover {
+    background-color: #c0392b;
+    transform: rotate(-8deg) scale(0.2);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+}
+/* index 5*/
+.wrappercinco{
+    margin-top: 150px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height:auto;
+    align-items: center;
+    align-content: center;
+
+}
+.contenedorultimito{
+    display: grid;
+
+}
+.ultimo {
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedorultimito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contenedorultimito div {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+.cuadrogif {
+    width: 100%; /* Ajusta el ancho del cuadro del GIF según tus necesidades */
+    max-width: 800px; /* Establece un ancho máximo para evitar que el GIF sea demasiado grande */
+    position: relative;
+    overflow: hidden;
+}
+.contenedorultimito iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.tituloultimo {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.wrappercinco button{
+   
+    width:500px;
+    height:270px;
+    background: linear-gradient(to left top, #c32c71 50%, #b33771 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 63px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: center;
+    padding: 0px;
+    overflow: hidden;
+    
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+    text-decoration: none;
+    
+}
+.wrappercinco button a{
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+}
+.wrappercinco button:hover{
+    transform: scale(3);
+}
+.tituloultimo {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px){
+        body {
+            background-color: #f0f0f0; /* Cambia el color de fondo para el iPhone SE */
+            color: #555; /* Cambia el color del texto */
+            /* Otros estilos específicos para el iPhone SE */
+        }
+        
+        .button-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .wrappercuatro{
+            position: relative;
+        }
+        .botonnocuatro{
+            margin-top: 0;
+        }
+        .wrappertres{
+            position: relative;
+        }
+        .botonnotres{
+            margin-top: 0;
+        }
+        .wrapper{
+            position: relative;
+        }
+        .botonno{
+            margin-top: 0;
+        }
+        .gif2{
+            height: 350px;
+        }
+        section picture iframe{
+            height: 250px;
+            
+        }
+        
+        
+
+    }
